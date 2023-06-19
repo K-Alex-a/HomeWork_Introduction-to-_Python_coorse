@@ -38,32 +38,34 @@ def checkNumbersForLetters(value):
 def parityCheck(number):
     """
     :param number: any number
-    :return: even numbers > 2
+    :return: even numbers > 6
     """
-    while int(number) % 2 == 1 and total_cranes < 2:
+    while not int(number) % 6 == 0 or number < 6:
         number = int(input('Try Again!\n Input an even number: '))
     return number
 
 
 def separationOfCranes(number):
     """
-    :param number: even numbers > 2
+    :param number: even numbers > 6
     :return: text result
     """
-    third_kid = number // 2
-    first_and_second_kid = third_kid // 2
-    print(f'Петя и Сережа сделали по {first_and_second_kid} журавлика(ов) '
-          f'\nА Катя сделала  {third_kid} журавлика(ов)')
+    first_and_second_kid = number // 6
+    third_kid = number - first_and_second_kid * 2
+    print(f'Petya and Serezha made  {first_and_second_kid} cranes.'
+          f'\nAnd Kate made {third_kid} cranes.')
 
 
-total_cranes = parityCheck(checkNumbersForLetters(dataInput()))
-separationOfCranes(total_cranes)
+separationOfCranes(
+    parityCheck(
+        checkNumbersForLetters(
+            dataInput())))
 
 """
 Вариант #02 (...)
 """
-#
+
 # total_cranes = int(input('Input the total number of cranes: '))
-# print((f'Петя и Сережа сделали по {total_cranes // 4} журавлика(ов) '
-#        f'\nА Катя сделала  {total_cranes // 2} журавлика(ов)')
-#       if total_cranes % 2 == 0 and total_cranes > 2 else None)
+# print((f'Petya and Serezha made {total_cranes // 6} cranes.'
+#        f'\nAnd Kate made  {total_cranes - ((total_cranes // 6) * 2)} cranes.')
+#       if total_cranes % 6 == 0 and total_cranes > 6 else None)
