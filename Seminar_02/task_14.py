@@ -22,6 +22,10 @@ def dataInput():
 
 
 def checkNumbersForLetters(number):
+    """
+    :param number: any value
+    :return: number
+    """
     while not number.isdigit():
         number = input('Wrong! Try Again!\n'
                        'Input only the number: ')
@@ -29,6 +33,10 @@ def checkNumbersForLetters(number):
 
 
 def allPowersOfTwo(number):
+    """
+    :param number: max number
+    :return: integer powers of two
+    """
     all_power = []
     count = 0
     while np.power(2, count) <= number:

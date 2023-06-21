@@ -19,11 +19,18 @@
 
 
 def dataInput(text):
+    """
+    :return: any value
+    """
     value = input(f'Input {text} number: ')
     return value
 
 
 def checkNumbersForLetters(number):
+    """
+    :param number: any value
+    :return: number
+    """
     while not number.isdigit():
         number = input('Wrong! Try Again!\n'
                        'Input only the number: ')
@@ -31,6 +38,11 @@ def checkNumbersForLetters(number):
 
 
 def guessNums(summa, multiply):
+    """
+    :param summa: sum numbers (int)
+    :param multiply: multiplication numbers (int)
+    :return: x and y when solving equations -> x + y = summa; x * y = multiply
+    """
     for i in range(summa // 2 + 1):
         for j in range(multiply // 2 + 1):
             if i + j == summa and \

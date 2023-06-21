@@ -29,6 +29,10 @@ def dataInput():
 
 
 def checkNumbersForLetters(number):
+    """
+    :param number: any value
+    :return: number
+    """
     while not number.isdigit():
         number = input('Wrong! Try again!\n'
                        'Input only the number:')
