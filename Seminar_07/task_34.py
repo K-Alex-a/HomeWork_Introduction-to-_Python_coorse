@@ -15,17 +15,20 @@
 Вывод: Парам пам-пам
 ========================================================="""
 
-vowels = ['а', 'я', 'о', 'ё', 'э', 'е', 'ы', 'и', 'у', 'ю']
+song = "пара-ра-рам рам-пам-папам па-ра-па-да-а-а".split()
+vowels = "аеёиоуыэюя"
+vowels_nums = set()
 
 
-phrase = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
-phrase_list = phrase.split()
-print(phrase_list)
+for phrase in song:
+    count = 0
+    for element in phrase:
+        if element in vowels:
+            count += 1
+    vowels_nums.add(count)
 
-def search_vowels(text, elements):
 
-
-
+print('Парам пам-пам' if len(vowels_nums) == 1 else 'Пам парам')
 
 
 
