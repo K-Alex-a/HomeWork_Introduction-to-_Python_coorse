@@ -13,4 +13,8 @@
 #### 03. [Семинар 3: Списки и словари](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/a77ccab4b3d79cc477043c5e743616f90de98c25/Seminar_03)
 #### 04. [Семинар 4: Словари, множества и профилирование](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/a77ccab4b3d79cc477043c5e743616f90de98c25/Seminar_04)
 #### 05. [Семинар 5: Словари, множества и профилирование](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/33f0b42b19a41b0cb554fb71661061a6e2860551/Seminar_05)
-#### 06. [Скминар 6: Повторение списков](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/a2540d6fba4850da7ac81db622f3544bb9177fbe/Seminar_06)
+#### 06. [Семинар 6: Повторение списков](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/a2540d6fba4850da7ac81db622f3544bb9177fbe/Seminar_06)
+#### 07. [Семинар 7: Функции высшего порядка](https://github.com/K-Alex-a/HomeWork_Introduction-to-_Python_coorse/tree/be39387631da0a4c7c75e32ede2ba68556aab60c/Seminar_07)
+#### 08. 
+#### 09. 
+#### 10. 
